@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    height: 30px;
+    align-content: flex-start;
+    padding: 30px;
+    margin-left: 25px;
+}
+.container{
+width: 100%;
+height: 100vh;
+background: white;
+font-family: 'Noto Sans', sans-serif;
+color: black ;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: -120px;
+}
+
+.card{
+    width: 360px;
+    height: 525px;
+    box-shadow: 0 10px 40px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 2%;
+}
+
+.inner-box{
+    padding: 20px 30px 30px 30px;
+    line-height: 1.5;
+}
+
+.input{
+    width: 100%;
+    border: 1px solid black;
+    margin: 10px 0;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    align-content: center;
+}
+
+::placeholder{
+    font-size: 15px;
+}
+
+form{
+    margin-top: 15px;
+}
+
+.forgot{
+    width: 50%;
+    height: 30px;
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: white;
+    margin-left: -10px;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+}
+
+.forgot:hover {
+    background-color:lightblue;
+    transition: 0.7s;
+}
+
+.forgot a:link {
+    color: #0A66C2;
+    text-decoration: none;
+  }
+  
+.forgot a:visited {
+    color: #0A66C2;
+    text-decoration: none;
+  }
+  
+.forgot a:hover {
+    color: #0A66C2;
+    text-decoration: underline;
+  }
+  
+.forgot a:active {
+    color: #0A66C2;
+    text-decoration: underline;
+  }
+
+  .sub{
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    border-color: transparent;
+    background-color: #0A66C2;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  .sub:hover {
+    background-color:#043567;
+    transition: 0.7s;
+}
+
+.split{
+    margin-top: 10px;
+    width: 100%; 
+    height: 14px; 
+    border-bottom: 1px solid gray; 
+    text-align: center
+}
+
+.or{
+    font-size: 15px; 
+    background-color: white; 
+    padding: 0 10px; 
+    color: gray;
+}
+
+.google{
+    color: grey;
+    width: 100%;
+    height: 40px;
+    border-radius: 50px;
+    border-color: black;
+    border-width: 1px;
+    background-color: white;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+
+.google:hover{
+    background-color: rgb(215, 215, 215);
+    border-width: 1.5Spx;
+    transition: 1s;
+    
+}
+
+.glogo{
+    width: 20px;
+    height: 20px;
+    margin-bottom: -3px ;
+}
+
+.apple{
+    color: grey;
+    width: 100%;
+    height: 40px;
+    border-radius: 50px;
+    border-color: black;
+    border-width: 1px;
+    background-color: white;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+
+.apple:hover{
+    background-color: rgb(215, 215, 215);
+    border-width: 1.5Spx;
+    transition: 1s;
+}
+.alogo{
+    width: 20px;
+    height: 20px;
+    margin-bottom: -3px;
+}
+
+.new{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.baguhan{
+    font-weight: 300;
+}
+
+.bago{
+    width: 25%;
+    height: 30px;
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: transparent;
+    margin-left: 5px;
+    margin-top: -2px;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+}
+
+.bago:hover {
+    background-color:lightblue;
+    transition: 0.7s;
+    text-decoration: underline;
+}
+
+.bago a:link {
+    color: #0A66C2;
+    text-decoration: none;
+  }
+  
+.bago a:visited {
+    color: #0A66C2;
+    text-decoration: none;
+  }
+  
+  .about{
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: -25px;
+  }
+
+  .about a:hover{
+    text-decoration: underline;
+    transition: 7s;
+  }
+
+  .about ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .about ul li{
+    font-family: 'Noto Sans', sans-serif;
+    float: left;
+  }
+
+  .about ul li a{
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  .tr{
+    margin-top: 3px;
+    height: 30px;
+  }
+
+
